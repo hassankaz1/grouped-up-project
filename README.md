@@ -66,7 +66,7 @@ In this page the users can also leave the group via leave group button.
 
 
 <p align="center">
-  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/create-group.gif" alt="animated" />
+  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/group-page.gif" alt="animated" />
 </p>
 
 
@@ -86,3 +86,4 @@ In this video call, users have the option to share, video, audio and/or screen.
 
 
 Credits to this creator as my video call functionality is built off of the tutorial below: 
+[Tutorial](https://www.youtube.com/playlist?list=PLGmKMg3aRkXguVpBmQLtXbTXf1Fzd1sWt)

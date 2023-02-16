@@ -1,0 +1,21 @@
+.avail {
+    text-align: center;
+    background-color: #C8C8C8;
+    border-radius: 20px;
+}
+
+.avail * {
+    display: block;
+    padding-top: 5px;
+}
+
+.j {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.j:hover {
+    background-color: white;
+    color: #53d769;
+}

@@ -1,0 +1,61 @@
+.photo-container {
+    font-size: 1.5em;
+    background-color: #393e46;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    grid-area: photo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardy {
+    margin: 15px auto;
+}
+
+.card-container {
+    margin: 10px;
+    display: grid;
+    grid-template-areas:
+        'photo info';
+    grid-template-columns: 150px 1fr;
+    width: 85%;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    line-height: 1.75em;
+    margin: auto;
+}
+
+.info-container {
+    padding: 20px;
+    grid-area: info;
+
+}
+
+.event-name {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.event-location {
+    font-weight: 300;
+}
+
+.day {
+    font-weight: 300;
+}
+
+.month {
+    font-weight: 600;
+}
+
+@media(max-width: 600px) {
+    .card-container {
+        width: 90%;
+    }
+}
+
+.link {
+    font-size: .7em;
+}

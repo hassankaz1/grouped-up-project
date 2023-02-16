@@ -1,0 +1,146 @@
+body,
+html {
+    /* overflow-y: hidden; */
+}
+
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* scroll-behavior: ; */
+}
+
+.modalContainer {
+
+    /* width: 40%; */
+    /* height: 500px; */
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* display: flex; */
+    /* position: fixed; */
+    flex-direction: column;
+    padding-bottom: 15px;
+    /* padding: 25px; */
+}
+
+
+
+
+.titleCloseBtn {
+    padding: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    /* background-color: #CBC3E3; */
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.titleCloseBtn button {
+    padding: 5px;
+    background-color: transparent;
+    border: transparent;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    margin-bottom: 20px;
+}
+
+.modalContainer .body {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+.formcontainer {
+    /* position: relative; */
+    text-align: center;
+    /* box-sizing: border-box; */
+}
+
+.formcontainer div {
+    /* box-sizing: border-box; */
+    display: block;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.form-inputs input {
+    height: 2em;
+    padding: 0 35px;
+    font-size: 18px;
+    color: #8f8fa1;
+    line-height: 1.2em;
+    border-radius: 31px;
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 500px;
+}
+
+.form-inputs textarea {
+    padding: 0 35px;
+    font-size: 18px;
+    color: #8f8fa1;
+    border-radius: 31px;
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.eventbtn {
+    background-color: #42b883;
+}
+
+.eventbtn:hover {
+    color: #42b883;
+    border-color: #42b883;
+}
+
+.form-inputs * {
+    margin-top: 10px;
+    text-align: start;
+    display: block;
+}
+
+.pickdate {
+    height: 2em;
+    padding: 0 35px;
+    font-size: 15px;
+    color: #8f8fa1;
+    line-height: 1.2em;
+    border-radius: 31px;
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 190px;
+}
+
+.pickdatelabel {
+    margin-top: 30px;
+}
+
+.start-label {
+    margin-right: 80px;
+
+}
+
+.end-label {
+    margin-left: 30px;
+}

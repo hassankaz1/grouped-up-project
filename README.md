@@ -52,7 +52,7 @@ List of all available groups are shown. They display the group name, how many to
 Users may also create a group via form under create-group link. Here they can speciy the name of the group and specify max members (range 2-6). Once created, they will be redirected to the group page. 
 
 <p align="center">
-  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/create-group.gif" alt="animated" />
+  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/creategroup.gif" alt="animated" />
 </p>
 
 

@@ -55,12 +55,17 @@ Users may also create a group via form under create-group link. Here they can sp
   <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/create-group.gif" alt="animated" />
 </p>
 
+
 ### Group Page 
 
 This group page will display all information regarding the group. This includes all events associated with the group in list form as well as in a user friendly map which will have start and end date for each event. 
 
 
 Users can create an event via create event button. 
+
+<p align="center">
+  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/create-event.gif" alt="animated" />
+</p>
 
 In this page the users can also leave the group via leave group button.
 

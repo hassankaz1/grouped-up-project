@@ -1,6 +1,12 @@
 
 # Grouped-Up
 Application where users can create groups and interact with group members. They can create group specific events and also have group video calls where a group member can choose to share video or screen. 
+
+<p align="center">
+  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/main-dem.gif" alt="animated" />
+</p>
+
+
 # Composition
 ## Technologies used
 * FrontEnd
@@ -15,7 +21,9 @@ Users are greeted with a login/signup page. If account exists, they may log in n
 Error messages will display referencing the mistake the user makes with password or email.
 
 
-login
+<p align="center">
+  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/login-h.gif" alt="animated" />
+</p>
 
 ## Main Application Functionality
 Side Nav Bar will display 
@@ -25,19 +33,27 @@ Side Nav Bar will display
 - Direct link to signout
 
 
-sidebar
+<p align="center">
+  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/sidenav.gif" alt="animated" />
+</p>
+
 
 ### Join A Group
 
 List of all available groups are shown. They display the group name, how many total members in the group and how many available spots. They may join group via buttton and will be directed to group page. This new added group will also be displayed on the side nav bar.
 
 
-join gr
+<p align="center">
+  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/join-group.gif" alt="animated" />
+</p>
 
 ### Create a group
 
 Users may also create a group via form under create-group link. Here they can speciy the name of the group and specify max members (range 2-6). Once created, they will be redirected to the group page. 
 
+<p align="center">
+  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/create-group.gif" alt="animated" />
+</p>
 
 ### Group Page 
 
@@ -49,7 +65,9 @@ Users can create an event via create event button.
 In this page the users can also leave the group via leave group button.
 
 
-create group
+<p align="center">
+  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/create-group.gif" alt="animated" />
+</p>
 
 
 ### Video Call
@@ -61,8 +79,10 @@ The link to code for video call server:
 In this video call, users have the option to share, video, audio and/or screen. 
 
 
-video call
+<p align="center">
+  <img src="https://github.com/hassankaz1/grouped-up-project/blob/master/demo-gifs/video-call.gif" alt="animated" />
+</p>
 
 
 
-Credits to as my video call functionality is built off of the tutorial. 
+Credits to this creator as my video call functionality is built off of the tutorial below: 
